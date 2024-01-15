@@ -1,0 +1,173 @@
+
+#xtTable #mainFrame {
+	font-size: 12px;
+	}
+
+#xtTable #filterFrame {
+	font-size: 12px;
+	visibility: hidden;
+	}
+
+#xtTable .tableCover {
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	border-left: 1px solid #5e532e;
+	border-top: 1px solid #5e532e;
+	border-right: 1px solid #5e532e;
+	background-color: #ad9a56;
+	color: #5e532e;
+	height: 14px;
+	}
+
+#xtTable .tableBottom {
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	border-left: 1px solid #5e532e;
+	border-bottom: 1px solid #5e532e;
+	border-right: 1px solid #5e532e;
+	background-color: #ad9a56;
+	color: #5e532e;
+	height: 14px;
+	}
+
+#xtTable .xTableCall  {
+	border-radius: 14px;
+	border: solid 1px #5e532e;
+	background-color: #716337;
+	color: #c8ba8c;
+	margin: 2px;
+	}
+
+#xtTable .xTableCall:hover {
+	background-color: white;
+	color: #5e532e;
+	}
+
+#xtTable #filterFrame .groupFilter {
+	background-color: #c8ba8c;
+	color: #5e532e;
+	border-radius: 14px;
+	border: solid 1px #5e532e;
+	margin: 10px;
+	float: left;
+	box-shadow: 5px 5px 2px #cccccc;
+	padding: 3px;
+	}
+
+#xtTable #filterFrame .filterMembers {
+	overflow: auto;
+	}
+
+#xtTable #filterFrame .filterTitle {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	}
+
+#xtTable #filterFrame .filterContent {
+	font-size: 12px;
+	}
+
+#xtTable #filterFrame .filterContent label {
+	padding-left: 5px;
+	}
+
+#xtTable .headTable {
+	border-left: 1px solid #5e532e;
+	border-right: 1px solid #5e532e;
+	overflow: hidden;
+	background-color: #ad9a56;
+	color: #5e532e;
+	}
+
+#xtTable .footTable {
+	border-left: 1px solid #5e532e;
+	border-right: 1px solid #5e532e;
+	overflow: hidden;
+	background-color: #ad9a56;
+	color: #5e532e;
+	}
+
+#xtTable #dataFrame {
+	overflow: auto;
+	}
+
+#xtTable #xTnbRecords {
+	float: left;
+	font-weight: bold;
+	border-radius: 14px;
+	border: solid 1px #5e532e;
+	background-color: #716337;
+	color: #c8ba8c;
+	}
+
+#xtTable .headLabel {
+	float: left;
+	overflow: hidden;
+	background-color: #ad9a56;
+	color: #5e532e;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-right: 1px solid #5e532e;
+	white-space: nowrap;
+	}
+
+#xtTable .footLabel {
+	float: left;
+	overflow: hidden;
+	background-color: #ad9a56;
+	color: #5e532e;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-right: 1px solid #5e532e;
+	white-space: nowrap;
+	}
+
+#xtTable .rowData {
+	clear: both;
+	height: 14px;
+	border-right: 1px solid #5e532e;
+	overflow: hidden;
+	}
+
+#xtTable .rowContent {
+	float: left;
+	overflow: hidden;
+	border-left: 1px solid #5e532e;
+	padding-right: 3px;
+	padding-left: 3px;
+	white-space: nowrap;
+	}
+
+#xtTable .rowData[rowStyle="R0"]{
+	background-color: #69aa41;
+	color: #000000;
+	}
+
+#xtTable .rowData[rowStyle="R1"]{
+	background-color: #7ebe58;
+	color: #000000;
+	}
+
+#xtTable .searchRowField {
+	background-color: #a3bf36;
+	color: #5e532e;
+	border-radius: 14px;
+	border: solid 1px #5e532e;
+	}
+
+#xtTable .xTableSelectedRow {
+	background-color: #ffffff;
+	}
+
+#xtTable .selectQtyField {
+	background-color: #a3bf36;
+	}
+
+#xtTable {
+	scrollbar-face-color: #5e532e;
+	scrollbar-arrow-color: #aa9754;
+	scrollbar-track-color: #aa9754;
+	scrollbar-3dlight-color: #716367;
+	scrollbar-darkshadow-color: #5e532e;
+	}

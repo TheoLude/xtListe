@@ -1,0 +1,24 @@
+{
+    "name": "extensia/xtTable",
+    "description": "A list viewer and manager",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Thierry ANDRE",
+            "email": "theo.et.sandrine@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0",
+        "extensia/errormanager": "1.*",
+        "extensia/databaseabstractlayer": "1.*",
+        "extensia/modelixe": "1.*"
+    },
+	"autoload": {
+		"psr-4": {
+			"eXtensia\\xtTable\\": "src/"
+		}
+	}
+}

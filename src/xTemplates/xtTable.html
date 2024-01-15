@@ -1,0 +1,55 @@
+
+
+		<!-- xtTable //-->
+		<div id="xtTable" MxAttribut="iniFile:iniFile;ajaxurl:ajaxurl;actualsortcol:actualsortcol;actualsortdir:actualsortdir;filters:filters;binding:binding;jsBindingOnClick:jsBindingOnClick">
+			<!-- filterFrame //-->
+			<div id="filterFrame">
+					<mx:bloc id="filterGroup">
+					<!-- filterGroup //-->
+					<div class="groupFilter" MxAttribut="id:id">
+					<div class="filterTitle"><mx:text id="title" /></div>
+						<div class="filterMembers">
+							<mx:bloc id="filterMember">
+							<div class="filterContent"><mx:checker id="checker" /><label><mx:text id="label" /></label></div></mx:bloc id="filterMember">
+						</div>
+					</div><!-- end filterGroup //-->
+					</mx:bloc id="filterGroup">
+			</div><!-- end filterFrame //-->
+			<!-- mainFrame //-->
+			<div id="mainFrame">
+
+				<!-- cover //-->
+				<div id="coverTable" class="tableCover" MxAttribut="style:headWidth"></div>
+				<!-- end cover //-->
+
+				<!--head//-->
+				<div id="head" class="headTable" MxAttribut="style:headWidth">
+					<mx:bloc id="colHead"><div class="headLabel" MxAttribut="style:style;column:column;id:id"><mx:text id="label" /><img align="right" sort="any" MxAttribut="src:src;xTfieldSort:xTfieldSort;xTDirSort:xTDirSort" /></div></mx:bloc id="colHead"><div class="headLabel" style="width:10px">&nbsp;</div>
+				</div><!--end head//-->
+
+				<!--data//-->
+				<div id="dataFrame" MxAttribut="style:dataFrame">
+					<mx:bloc id="rowData"></mx:bloc id="rowData">
+				</div><!--end data//-->
+
+				<!--foot//-->
+				<div id="foot" class="footTable" MxAttribut="style:headWidth">
+					<mx:bloc id="colFoot"><div class="footLabel" MxAttribut="style:style;column:column;id:id"><mx:formField id="searchRowField" class="searchRowField" /></div></mx:bloc id="colFoot"><div class="footLabel" style="width:10px">&nbsp;</div>
+				</div><!--end foot//-->
+
+				<!--sub-foot//-->
+				<div id="subfoot" class="footTable" MxAttribut="style:headWidth">
+					<div style="float:left;width:18%;padding-left:5px">&nbsp;<div id="xTnbRecords"><mx:text id="nbRecords" /></div>&nbsp;<mx:pref id="xTableRecordsFound" /></div>
+					<div style="float:left;width:20%"><mx:pref id="xTableQtyByScreen" /><mx:select id="qtyByScreen" class="selectQtyField"  /></div>
+					<div style="float:left;width:18%"><mx:pref id="xTableGoToPage" /><mx:select id="goToPage" class="selectQtyField"  /></div>
+					<div style="float:left;width:15%" class="xTableCall" id="xTableFilterCall"><mx:pref id="xTableFilterCall" /></div>
+					<div style="float:left;width:15%" class="xTableCall" id="xTablePrinterCall"><mx:pref id="xTablePrinterCall" /></div>
+					<div style="float:right;width:10%;text-align:right" ><img src="images/redimensionner.gif" align="right" id="xTableResizeCall" /></div>
+				</div><!--end sub-foot//-->
+
+				<!-- bottom //-->
+				<div id="bottomTable" class="tableBottom" MxAttribut="style:headWidth"></div>
+				<!-- end bottom //-->
+
+			</div><!-- end mainFrame //-->
+		</div><!-- end xtTable //-->
